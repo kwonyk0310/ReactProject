@@ -40,7 +40,7 @@ const App = () => {
   
   const handleClick = (i) => {
     const newHistory = history.slice(0, stepNumber + 1);
-    const newCurrent = newHistory[newHistory - 1];
+    const newCurrent = newHistory[newHistory.length - 1];
     const newSquares = newCurrent.squares.slice();
     
     // 승자가 이미 나온 경우 경기 중지(리턴), 혹은 현재 클릭한 스퀘어 안에 이미 값이 있다면 그냥 리턴
