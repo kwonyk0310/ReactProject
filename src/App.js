@@ -62,7 +62,7 @@ const App = () => {
       'Go to game start!';
     return (
       <li key={move}>
-        <button onClick={() => jumpTo(move)}>{desc}</button>
+        <button className="move-button" onClick={() => jumpTo(move)}>{desc}</button>
       </li>
     )
   })
@@ -79,7 +79,7 @@ const App = () => {
       </div>
       <div className="game-info">
         <div className="status">{status}</div>
-        <ol>{moves}</ol>
+        <ol style={{listStyle: 'none'}}>{moves}</ol>
     </div>
   </div>
   );

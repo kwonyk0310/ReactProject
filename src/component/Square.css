@@ -2,10 +2,12 @@
     background-color: pink;
     border: 1px solid #999;
     font-size: 24px;
-    height: 34px;
+    height: 100px;
     margin-right: -1px;
-    margin-top: -5px;
+    margin-top: -1px;
     padding: 0;
     text-align: center;
-    width: 34px;
+    width: 100px;
+    float: left;
+    line-height: 34px;
 }
